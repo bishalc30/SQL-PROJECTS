@@ -1,4 +1,4 @@
-# SQL Layoff Analysis
+# SQL Global Layoff Trends
 
 This repository contains an SQL project focused on analyzing layoff trends across various industries and countries. The project includes data cleaning, transformation, and analysis.
 
