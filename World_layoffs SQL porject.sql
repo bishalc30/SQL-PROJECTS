@@ -181,14 +181,3 @@ FROM layoffs2
 WHERE YEAR(DATE) IS NOT NULL
 GROUP BY company, year
 ORDER BY 3 desc;
-
-
-WITH company_year AS
-(
-SELECT company, YEAR(DATE) AS year ,  SUM(total_laid_off) AS laid_off
-FROM layoffs2
-WHERE YEAR(DATE) IS NOT NULL
-GROUP BY company, year
-ORDER BY 3 desc 
-)
-SELECT * , dense_
